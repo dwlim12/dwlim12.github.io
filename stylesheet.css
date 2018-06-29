@@ -1,3 +1,69 @@
-body {margin: 0; padding: 0;}
-.container {width: 90%; margin: 0 auto;}
-#section-header h1 {text-align: center;}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html {height: 100%;}
+.container {
+    /* left right */
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+}
+
+.section-header h1 {
+    font: 75px/68px 'Voltaire';
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-header p {
+    font: 16px/30px 'Fauna One';
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto 50% auto;
+    padding: 10%;
+}
+
+.section-ag {
+    /*background-image: url(https://vignette.wikia.nocookie.net/arianagrande/images/2/23/Yours_Truly_Artwork.png/revision/latest?cb=20150302215836);*/
+    background: linear-gradient(to right, #CE9FFC, #7367F0 100%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110%;
+}
+.section-ag h1 {
+    font: 68px/90px 'Rozha One';
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-ag p {
+    font: 16px/30px 'Fauna One';
+    color: #FFFFFF;
+    position: relative;
+    left: 10%;
+    max-width: 750px;
+}
+
+.section-kl {
+    background: linear-gradient(to top right, #000000, #FFFFFF 60%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110%;
+}
+.section-kl h1 {
+    font: 68px/90px 'Times';
+    color: #FF0000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-kl p {
+    font: 16px/30px 'Fauna One';
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto 50% auto;
+}
