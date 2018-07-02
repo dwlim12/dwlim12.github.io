@@ -63,5 +63,7 @@ body, html {
 .section-kl p {
     font: 16px/30px 'Fauna One';
     color: #FFFFFF;
+    max-width: 750px;
     text-align: center;
+    margin: 0 auto;
 }
