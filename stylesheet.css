@@ -1,15 +1,12 @@
-body {
-    margin: 0;
-    padding: 0;
+body, html {
     height: 100%;
 }
-html {height: 100%;}
+
 .container {
     /* left right */
-    min-height: 100%;
-    min-width: 1024px;
+    height: 100%;
     width: 100%;
-    height: auto;
+    overflow: hidden;
 }
 
 .section-header h1 {
@@ -21,20 +18,18 @@ html {height: 100%;}
     font: 16px/30px 'Fauna One';
     max-width: 750px;
     text-align: center;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 50% auto;
     padding: 10%;
 }
 
 .section-ag {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://vignette.wikia.nocookie.net/arianagrande/images/2/23/Yours_Truly_Artwork.png/revision/latest?cb=20150302215836);
+    background-image: url(https://vignette.wikia.nocookie.net/arianagrande/images/2/23/Yours_Truly_Artwork.png/revision/latest?cb=20150302215836);
+    height: 100%;
     opacity: 0.65;
-    /*background: linear-gradient(to right, #CE9FFC, #7367F0 100%);*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110%;
 }
 .section-ag h1 {
     font: 68px/90px 'Rozha One';
@@ -51,15 +46,13 @@ html {height: 100%;}
 }
 
 .section-kl {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://nerdist.com/wp-content/uploads/2017/04/kendrick-lamar-damn-back-cover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://nerdist.com/wp-content/uploads/2017/04/kendrick-lamar-damn-back-cover.jpg);
+    height: 100%;
     opacity: 0.65;
-    /*background: linear-gradient(to top right, #000000, #FFFFFF 60%);*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110%;
 }
 .section-kl h1 {
     font: 68px/90px 'Times';
@@ -70,7 +63,5 @@ html {height: 100%;}
 .section-kl p {
     font: 16px/30px 'Fauna One';
     color: #FFFFFF;
-    max-width: 750px;
     text-align: center;
-    margin: 0 auto 50% auto;
 }
